@@ -30,7 +30,7 @@ body{
     height: 40px;
     background: #E02C6D;
     color: #FFFFFF;
-    transition: 2s ease;
+    transition: 1s ease;
 }
 .btn:hover{
     background-color: black;
@@ -71,6 +71,26 @@ body{
     height: 256px;
 }
 
+/* additional parts */
+.additional{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.additional-parts{
+    padding: 50px;
+    text-align: center;
+}
+.additional-parts img{
+    width: 20%;
+    height: 70%;
+    padding: 2px 20px;
+    border: 2px solid black;
+    transition: 0.2s ease-in;
+}
+.additional-parts img:hover{
+    width: 30%;
+    height: 75%;
+}
 /* footer part */
 footer{
     text-align: center;
@@ -107,5 +127,6 @@ footer img{
     }    
     .players{
         grid-template-columns: repeat(2, 1fr);
-    }    
+    } 
+      
 }
